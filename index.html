@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="./main.css" />
+		<script src="./file.js"></script>
+	</head>
+	<body>
+		<nav class="nav">
+			<div class="container">
+				<div class="nav-row">
+					<div class="logo">
+						<img class="img-logo" src="img/logo.png" alt="Enver logo" />
+						<span class="logo-title">Enver</span>
+					</div>
+					<div class="navigation-list mobile-wrap hide-on-mobile">
+						<ul class="menu">
+							<li class="list-item"><a href="#">Home</a></li>
+							<li class="list-item"><a href="#services">Services</a></li>
+							<li class="list-item"><a href="#box-price">Our Project</a></li>
+							<li class="list-item"><a href="#">About us</a></li>
+						</ul>
+					</div>
+					<button href="#" class="contact-btn hide-on-mobile" type="button">
+						Contact us
+						<div></div>
+					</button>
+				</div>
+				</div>
+			</div>
+		</nav>
+
+		<header class="header">
+			<div class="container">
+				<div class="header-row">
+					<div class="header-text">
+						<h1 class="header-title">Build Your Awesome Platform</h1>
+						<p class="info-text ">
+							Enver studio is a digital studio that offers several services such
+							as UI/UX Design to developers, we will provide the best service
+							for those of you who use our services.
+						</p>
+						<button href="#" class="services-btn" type="button">
+							Our Services
+							<div class="service-btn-icon"></div>
+						</button>
+					</div>
+					<div >
+						<img class="header_img" src="img/man.png" alt="Happy client" />
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<section class="best-choice">
+			<div class="container">
+				<div class="best-row">
+					<h2 class="best-title secondary-title">Why Enver is The Best Choice?</h2>
+					<p class="info-text">
+						Watch this one minute video so you understand why you should use our
+						services!
+					</p>
+				</div>
+				<iframe
+					class="explainer"
+					src="https://www.youtube.com/embed/Z5IM0YOOibQ"
+				>
+				</iframe>
+			</div>
+		</section>
+
+		<section class="services">
+			<div class="container">
+				<h2 class="services-title secondary-title" id="services">
+					The Service We Provide For You
+				</h2>
+				<div class="services-row">
+					<div class="services-item">
+						<img src="img/icon1.svg" alt="service" />
+						<h3>Development</h3>
+						<p>Create a platform with the best and coolest quality from us.</p>
+					</div>
+					<div class="services-item">
+						<img src="img/icon2.svg" alt="service" />
+						<h3>UI/UX Designer</h3>
+						<p>
+							We provide UI/UX Design services, and of course with the best
+							quality
+						</p>
+					</div>
+					<div class="services-item">
+						<img src="img/icon3.svg" alt="service" />
+						<h3>Graphik Designer</h3>
+						<p>We provide Graphic Design services, with the best designers</p>
+					</div>
+					<div class="services-item">
+						<img src="img/icon4.svg" alt="service" />
+						<h3>Motion Graphik</h3>
+						<p>Create a platform with the best and coolest quality from us.</p>
+					</div>
+					<div class="services-item">
+						<img src="img/icon5.svg" alt="service" />
+						<h3>Photography</h3>
+						<p>
+							We provide Photography services, and of course with the best
+							quality
+						</p>
+					</div>
+					<div class="services-item">
+						<img src="img/icon6.svg" alt="service" />
+						<h3>Videography</h3>
+						<p>Create a platform with the best and coolest quality from us.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="box-price" id="box-price">
+			<div class="container">
+				<div class="price-title">
+					<h2 class="price-title-main secondary-title">
+						Build Your Awesome Platform From One Place
+					</h2>
+					<div class="options hide-on-mobile">
+						<div class="option-item">
+							<div class="option-icon"></div>
+							Free 15-day trial
+						</div>
+						<div class="option-item">
+							<div class="option-icon"></div>
+							Unlimited Team Members
+						</div>
+						<div class="option-item">
+							<div class="option-icon"></div>
+							Cancel Anytime
+						</div>
+					</div>
+				</div>
+
+				<div class="switcher">
+					<span>Billed Yearly </span>
+					<label class="switch">
+						<input onclick="checkboxClick(event)" type="checkbox" checked />
+						<span class="slider"></span>
+					</label>
+					<span>Billed Monthly</span>
+				</div>
+
+				<div class="pricing-table">
+					<div class="pricing-card">
+						<div class="pricing-card-header">
+							<h3 class="pricing-card-title">Startup</h3>
+							<h3 class="price">$14</h3>
+							<span>per user, per month</span>
+							<button href="#" class="start-btn">Start My 15-day Trial</button>
+							<div class="line"></div>
+						</div>
+						<ul class="offer-list">
+							<li>5 Social Profiles</li>
+							<li>5 Schedulded Posts Per Profile</li>
+							<li>400+ Templates</li>
+							<li>Calendar View</li>
+							<li>24/7 Support</li>
+						</ul>
+					</div>
+
+					<div class="pricing-card">
+						<div class="pricing-card-header">
+							<h3 class="pricing-card-title">Business</h3>
+							<h3 class="price">$29</h3>
+							<span>per user, per month</span>
+							<button href="#" class="start-btn">Start My 15-day Trial</button>
+							<div class="line"></div>
+						</div>
+						<ul class="offer-list">
+							<li>10 Social Profiles</li>
+							<li>25 Scheduled Posts Per Profile</li>
+							<li>400+ Templates</li>
+							<li>Calendar View</li>
+							<li>24/7 Support</li>
+						</ul>
+					</div>
+
+					<div class="pricing-card">
+						<div class="pricing-card-header">
+							<h3 class="pricing-card-title">Agency</h3>
+							<h3 class="price">$139</h3>
+							<span>per user, per month</span>
+							<button href="#" class="start-btn">Start My 15-day Trial</button>
+							<div class="line"></div>
+						</div>
+						<ul class="offer-list">
+							<li>100 Social Profiles</li>
+							<li>100 Scheduled Posts Per Profile</li>
+							<li>400+ Templates</li>
+							<li>Calendar View</li>
+							<li>24/7 Support</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="contacts">
+			<div class="container">
+				<div class="contact-info">
+					<h2 class="contact-title secondary-title">
+						Contact us for the service you want to use
+					</h2>
+					<button href="#" class="footer-contact-btn">Contact us</button>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer-info">
+					<div class="logo">
+						<img class="img-logo" src="img/logo.png" alt="Enver logo" />
+						<span class="logo-title">Enver</span>
+					</div>
+					<div class="footer-nav">
+						<ul class="menu foot-menu">
+							<li class="list-item"><a href="#">Support</a></li>
+							<li class="list-item"><a href="#">Privacy Policy</a></li>
+							<li class="list-item"><a href="#">Terms and Conditions</a></li>
+						</ul>
+					</div>
+					<div class="rights">
+						<span>© 2020 Enver, All Rights Reserved</span>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
