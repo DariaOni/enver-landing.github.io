@@ -703,6 +703,10 @@ input:checked + .slider:before {
 		height: auto;
 	}
 
+	.text-services {
+		width: 74%;
+	}
+
 	.pricing-table {
 		flex-direction: column;
 	}
@@ -728,6 +732,14 @@ input:checked + .slider:before {
 
 	.menu {
 		flex-direction: column;
+	}
+
+	.footer-nav {
+		margin-left: 0px;
+	}
+
+	.list-item {
+		margin-right: 0px;
 	}
 }
 
@@ -807,6 +819,10 @@ input:checked + .slider:before {
 		flex-direction: column;
 	}
 
+	.text-services {
+		width: 74%;
+	}
+
 	.services-title {
 		margin-left: 19%;
 		width: 70%;
@@ -847,6 +863,14 @@ input:checked + .slider:before {
 
 	.menu {
 		flex-direction: column;
+	}
+
+	.footer-nav {
+		margin-left: 0px;
+	}
+
+	.list-item {
+		margin-right: 0px;
 	}
 }
 
@@ -913,6 +937,10 @@ input:checked + .slider:before {
 
 	.services-row {
 		flex-direction: column;
+	}
+
+	.text-services {
+		width: 74%;
 	}
 
 	.pricing-table {
@@ -995,5 +1023,13 @@ input:checked + .slider:before {
 		margin-top: 40px;
 		display: flex;
 		justify-content: space-between;
+	}
+
+	.footer-nav {
+		margin-left: 0px;
+	}
+
+	.list-item {
+		margin-right: 0px;
 	}
 }
