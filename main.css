@@ -811,7 +811,7 @@ input:checked + .slider:before {
 		width: 311.5px;
 		font-weight: 900;
 		float: left;
-		font-family: Noto Sans;
+		font-family: 'Noto Sans', sans-serif;
 		font-style: normal;
 		font-size: 37px;
 		overflow-wrap: initial;
