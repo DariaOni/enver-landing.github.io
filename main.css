@@ -1,6 +1,5 @@
 @import url('http://fonts.cdnfonts.com/css/noto-sans');
 @import url('http://fonts.cdnfonts.com/css/nunito-sans');
-
 * {
 	padding: 0;
 	margin: 0;
@@ -774,6 +773,8 @@ input:checked + .slider:before {
 
 	.info-text {
 		font-size: 1rem;
+		line-height: 26px;
+		letter-spacing: 0.6px;
 	}
 
 	.container {
@@ -821,6 +822,7 @@ input:checked + .slider:before {
 
 	.text-services {
 		width: 74%;
+		line-height: 1.7;
 	}
 
 	.services-title {
@@ -840,7 +842,7 @@ input:checked + .slider:before {
 	}
 
 	.services-item {
-		margin-bottom: 39%;
+		margin-bottom: 34%;
 	}
 
 	.pricing-table {
@@ -911,6 +913,7 @@ input:checked + .slider:before {
 	.info-text {
 		font-size: 1rem;
 		line-height: 26px;
+		letter-spacing: 0.6px;
 	}
 
 	.explainer {
@@ -941,6 +944,7 @@ input:checked + .slider:before {
 
 	.text-services {
 		width: 74%;
+		line-height: 1.7;
 	}
 
 	.pricing-table {
@@ -979,7 +983,7 @@ input:checked + .slider:before {
 		letter-spacing: 0px;
 		margin-left: 7px;
 		font-family: 'Noto Sans', sans-serif;
-		margin-top: -50px;
+		margin-top: -41px;
 		width: 90%;
 		font-size: 36px;
 	}
